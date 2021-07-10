@@ -1,6 +1,6 @@
-package Patterns.Creational;
+package Patterns.Creational.Factory;
 
-public class MacBookPro extends MacBook{
+class MacBookPro extends MacBook{
   private String memory;
   private String disc;
   private int screenSize;
