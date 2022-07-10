@@ -1,4 +1,4 @@
-package Patterns.Creational.Factory;
+package Patterns.Creational.Factory.MacBook;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class MacBookApp {
       MacBook pro3 = MacBookFactory.getMac("Pro", "16G", "512", 13);
       MacBook pro4 = MacBookFactory.getMac("Pro", "32G", "512", 16);
       List<MacBook> macBookList = List.of(air1, pro1, air2, pro2, pro3, pro4);
-
+      macBookList.forEach(System.out::println);
     } catch (IllegalArgumentException error) {
       System.out.println(error.getMessage());
     }

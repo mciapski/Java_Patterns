@@ -1,4 +1,4 @@
-package Patterns.Creational.Factory;
+package Patterns.Creational.Factory.MacBook;
 
 public class MacBookFactory {
 

@@ -1,4 +1,4 @@
-package Patterns.Creational.Factory;
+package Patterns.Creational.Factory.MacBook;
 
 class MacBookPro extends MacBook{
   private String memory;
@@ -13,16 +13,16 @@ class MacBookPro extends MacBook{
 
   @Override
   public String getMemory() {
-    return null;
+    return this.memory;
   }
 
   @Override
   public String getDisc() {
-    return null;
+    return this.disc;
   }
 
   @Override
   public int getScreenSize() {
-    return 0;
+    return this.screenSize;
   }
 }

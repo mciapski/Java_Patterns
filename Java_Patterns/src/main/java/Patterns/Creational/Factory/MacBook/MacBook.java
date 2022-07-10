@@ -1,4 +1,4 @@
-package Patterns.Creational.Factory;
+package Patterns.Creational.Factory.MacBook;
 
 abstract class MacBook {
   public abstract String getMemory();
